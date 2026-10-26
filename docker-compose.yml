@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      # "snapshot" serves the bundled January 2026 data; "live" re-pulls it from Elexon on start-up.
+      DATA_MODE: ${DATA_MODE:-snapshot}
+    restart: unless-stopped

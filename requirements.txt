@@ -1,0 +1,5 @@
+# Runtime deps for the Vercel Python function (api/index.py). Keep in sync with backend/requirements.txt.
+fastapi==0.115.12
+pandas==2.2.3
+numpy==2.2.5
+httpx==0.28.1
