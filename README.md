@@ -7,7 +7,7 @@ WindDesk is a web app for a GB utility's day-ahead power procurement desk. For e
 
 Scope: national wind only, using Elexon BMRS `FUELHH` (actuals, `fuelType=WIND`) and `WINDFOR` (forecasts), for **purchase decisions made in January 2026**, i.e. delivery days 2 Jan to 1 Feb 2026.
 
-**Live app:** `<VERCEL_URL>`  ·  **Demo video:** `<YOUTUBE_URL>`
+**Live app:** https://hpxmgk.vercel.app  ·  **Demo video:** `<YOUTUBE_URL>`
 
 ---
 
